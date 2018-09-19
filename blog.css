@@ -1,0 +1,229 @@
+h1 {
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 700;
+}
+h2 {
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 600;
+}
+h3 {
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 500;
+}
+h4 {
+		font-family: 'Quicksand', sans-serif;
+}
+h5 {
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 600;
+}
+p {
+		font-family: 'Quicksand', sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 20px;
+		text-align: distribute;
+}
+body, html {
+		font-family: 'Quicksand', sans-serif;
+		font-family: 'Verlag Book';
+		font-size: 14px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 20px;
+		margin-left:5%;
+		margin-right:5%;
+		margin-bottom:5%;
+		margin-top:3%;
+		text-align: justify;
+}
+
+blockquote {
+		font-family: 'Quicksand', sans-serif;
+		font-size: 21px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 30px;
+}
+pre {
+		font-family: 'Quicksand', sans-serif;
+		font-size: 13px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 400;
+		line-height: 18.5667px;
+}
+
+/* This text is in Palatino */
+.class { 
+		font-family: 'Quicksand', sans-serif;
+}
+
+#toc_container {
+		font-family: 'Quicksand', sans-serif;
+		background: #f9f9f9 none repeat scroll 0 0;
+		border: 1px solid #aaa;
+		display: table;
+		font-size: 95%;
+		margin-bottom: 1em;
+		padding: 20px;
+		width: auto;
+		text-align: left;
+}
+
+.toc_title {
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 700;
+		text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+		font-family: 'Quicksand', sans-serif;
+		list-style: square outside none;
+}
+
+img {
+		font-family: 'Quicksand', sans-serif;
+		width: 100%;
+}
+
+#toc a:active {
+		font-family: 'Quicksand', sans-serif;
+		color: black;
+}
+#toc a:hover {
+		font-family: 'Quicksand', sans-serif;
+		text-decoration: underline;
+		cursor: pointer;
+}
+#toc {
+		font-family: 'Quicksand', sans-serif;
+		text-decoration: none;
+		display: table;
+		width: auto;
+		text-align: left;
+}
+#toc a{
+		font-family: 'Quicksand', sans-serif;
+		text-decoration: none;
+}
+#toc div.h1 { 
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 900;
+		margin-left: 0;
+		font-size: 110%;
+}
+#toc div.h2 { 
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 700;
+		margin-left: 0em;
+}
+#toc div.h3 { 
+		font-family: 'Quicksand', sans-serif;
+		margin-left: 1em;
+		font-weight: 700;
+		font-size: 97%;
+}
+#toc div.h4 { 
+		font-family: 'Quicksand', sans-serif;
+		margin-left: 2em;
+		font-size: 94%;
+}
+#toc div.h5 { 
+		font-family: 'Quicksand', sans-serif;
+		margin-left: 3em;
+		font-size: 91%;
+}
+
+figure {}
+figure img {}
+figure figcaption {
+		font-family: 'Quicksand', sans-serif;
+		caption-side: top;
+		text-align: center;
+}
+
+* {
+		font-family: 'Quicksand', sans-serif;
+		box-sizing: border-box;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+td{
+		vertical-align: top;
+		text-align: left;
+		table-layout: fixed;
+		width: 50%;
+}
+
+div{
+}
+
+th {
+		font-size: 16px;
+}
+
+hr {
+		border-top: 1px solid #8c8b8b;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+	color: #ff8f00
+}
+
+a:focus {
+  border-bottom: 1px solid;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
