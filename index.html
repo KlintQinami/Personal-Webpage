@@ -25,13 +25,46 @@
 				rel="stylesheet">
 				<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 				<link rel="stylesheet" type="text/css" href="blog.css">
-				<link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP"
-				rel="stylesheet">
+				<link rel="stylesheet" type="text/css" href="./fonts.css">
+				<style>
+				html * {
+					font-family: "Computer Modern Concrete";
+				}
+				</style>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+// Add smooth scrolling to all links
+$("a").on('click', function(event) {
+
+// Make sure this.hash has a value before overriding default behavior
+if (this.hash !== "") {
+// Prevent default anchor click behavior
+event.preventDefault();
+
+// Store hash
+var hash = this.hash;
+
+// Using jQuery's animate() method to add smooth page scroll
+// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+$('html, body').animate({
+scrollTop: $(hash).offset().top
+}, 500, function(){
+
+// Add hash (#) to URL when done scrolling (default click behavior)
+window.location.hash = hash;
+});
+} // End if
+});
+});
+</script>
+
+</style>
 		</head>	
 		</body>
 		<div class="w3-content w3-margin-top" style="max-width:1000px;">
 		<div class="w3-container w3-card-4 w3-white w3-margin-bottom">
-				<h2>Klint Qinami</h2>
+				<h2>Klint <font style="font-variant: small-caps">Qinami</font></h2>
 				<h4>
 						Ph.D. student, Computer Science, Princeton University
 				</h4>
@@ -49,7 +82,7 @@
 				<table id="about" style="table-layout: fixed; margin: 10px">
 						<tr>
 								<td style="text-align: center">
-												<img src="./images/idphoto.jpg" style="max-width: 300px;">
+										<img src="./images/idphoto.jpg" style="max-width: 300px;">
 								</td>
 								<td>
 										<b> About: </b>
@@ -69,11 +102,10 @@
 				<hr style="border-spacing: 1px; margin: 1px; border-collapse: collapse;">
 				<h3 id="projects"> Projects </h3>
 				<h4> Research </h4>
-				<table style="table-layout: fixed; width: 100%">
+				<table class="sturdy" style="table-layout:fixed; width:100%">
 						<tr>
-								<td style="text-align: center">
-										<img src="./images/link_img.png" 
-										style="max-width: 200px; max-height: 200px ">
+								<td style="text-align:center;max-width:25%;">
+										<img src="./images/link_img.png">
 								</td>
 								<td>
 										Klint Qinami, Eitan Grinspun
@@ -84,7 +116,7 @@
 										May 15, 2017
 										<br> <br>
 										<b>
-										| <a href="./pdfs/link_num_writeup.pdf">Report</a> |
+										[<a href="./pdfs/link_num_writeup.pdf">Report</a>]
 										</b>
 								</td>
 						</tr>
@@ -92,11 +124,10 @@
 
 				<h4> Programming Languages </h4>
 
-				<table style="table-layout: fixed; width: 100%">
+				<table class="sturdy" style="table-layout:fixed; width:100%">
 						<tr>
 								<td style="text-align: center">
-										<img src="./images/qclang_img.png" 
-										style="max-width: 200px; max-height: 200px ">
+										<img src="./images/qclang_img.png">
 								</td>
 								<td>
 										Klint Qinami, Connor Abbott
@@ -106,22 +137,22 @@
 										Apr. 28, 2018
 										<br> <br>
 										<b>
-										| <a href="./pdfs/qclang_report.pdf">Report</a> | 
-										<a href="./pdfs/qclang_presentation.pdf">Presentation</a> | 
-										<a href="./pdfs/qclang_src.zip">Src</a> | 
-										<a href="https://github.com/KlintQinami/QClang">Github</a> |
+										[<a href="./pdfs/qclang_report.pdf">Report</a>]
+										[<a href="./pdfs/qclang_presentation.pdf">Presentation</a>]
+										[<a href="./pdfs/qclang_src.zip">Src</a>] 
+										[<a href="https://github.com/KlintQinami/QClang">Github</a>]
 										</b>
 								</td>
 						</tr>
 				</table>
 
-				<table style="table-layout: fixed; width: 100%">
+				<table class="sturdy" style="table-layout:fixed; width:100%">
 						<tr>
 								<td style="text-align: center">
-										<img src="./images/blis.png" 
-										style="max-width: 200px; max-height: 200px ">
+										<img src="./images/blis.png">
 								</td>
 								<td>
+										<div>
 										Connor Abbott, Wendy Pan, Klint Qinami, Jason Vaccario		
 										<h4>
 									  Blis: Better Language for Image Stuff	
@@ -129,19 +160,20 @@
 										Apr. 28, 2018
 										<br> <br>
 										<b>
-										| 
-										<a href="./pdfs/blis_report.pdf">Report</a> | 
-										<a href="./pdfs/blis_presentation.pdf">Presentation</a> | 
-										<a href="./pdfs/blis_src.tar.gz">Src</a> | 
-										<a href="https://github.com/KlintQinami/Blis">Github</a> |
+										 
+										[<a href="./pdfs/blis_report.pdf">Report</a>]
+										[<a href="./pdfs/blis_presentation.pdf">Presentation</a>]
+										[<a href="./pdfs/blis_src.tar.gz">Src</a>]
+										[<a href="https://github.com/KlintQinami/Blis">Github</a>]
 										</b>
+										</div>
 								</td>
 						</tr>
 				</table>
 
 				<h4> Physics Lab Software </h4>
 
-				<table style="table-layout: fixed; width: 100%">
+				<table class="sturdy" style="table-layout:fixed; width:100%">
 						<tr>
 								<td style="text-align: center">
 										<img src="./images/supercond.png" 
@@ -152,19 +184,19 @@
 										<h4>
 									  Superconductivity Software
 										</h4>
-										August 31, 2018
+										Aug. 31, 2018
 										<br> <br>
 										<b>
-										| <a href="./pdfs/supercond_manual.pdf">Manual</a>
-										| <a href="./pdfs/supercond_src.zip">Src</a> | 
-										<a href="https://github.com/KlintQinami/Superconductivity-Experiment">Github</a> |
+										[<a href="./pdfs/supercond_manual.pdf">Manual</a>]
+										[<a href="./pdfs/supercond_src.zip">Src</a>]
+										[<a href="https://github.com/KlintQinami/Superconductivity-Experiment">Github</a>]
 										</b>
 								</td>
 						</tr>
 				</table>
 
 
-				<table style="table-layout: fixed; width: 100%">
+				<table class="sturdy" style="table-layout:fixed; width:100%">
 						<tr>
 								<td style="text-align: center">
 										<img src="./images/qhe_img.png" 
@@ -178,9 +210,9 @@
 										Apr. 22, 2016
 										<br> <br>
 										<b>
-										| <a href="./pdfs/qhe_manual.pdf">Manual</a> | 
-										<a href="./pdfs/qhe_src.zip">Src</a> | 
-										<a href="https://github.com/KlintQinami/Quantum-Hall-Effect-Software">Github</a> |
+										[<a href="./pdfs/qhe_manual.pdf">Manual</a>]
+										[<a href="./pdfs/qhe_src.zip">Src</a>]
+										[<a href="https://github.com/KlintQinami/Quantum-Hall-Effect-Software">Github</a>]
 										</b>
 								</td>
 						</tr>
@@ -200,7 +232,7 @@
 
 		<hr style="border-spacing: 1px; margin: 1px; border-collapse: collapse;">
 		<h3 id="contact"> Contact </h3>
-		<table style="width: 50%">
+		<table style="width: 30%">
 				<tr>
 				<td style="width:25%">
 		<code>
