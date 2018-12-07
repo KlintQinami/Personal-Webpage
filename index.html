@@ -55,11 +55,12 @@ Princeton, NJ 08540<br>
 <p>
 I am a 
 <script type="text/javascript">
+var _MS_IN_YR = 31536000000;
 var years = ["first", "second", "third", "fourth", "fifth", "elderly"];
-var start_yr = 2018;
-var index = new Date().getFullYear() - start_yr;
-var name = years[index];
-document.write(name);
+var d = new Date(2018, 8, 1);
+var d1 = new Date();
+var index = Math.floor((d1 - d)/_MS_IN_YR);
+document.write(years[index]);
 </script>
 year Ph.D. student in the
 <a href="https://www.cs.princeton.edu">Department of Computer Science</a>
