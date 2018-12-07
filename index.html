@@ -55,11 +55,12 @@ Princeton, NJ 08540<br>
 <p>
 I am a 
 <script type="text/javascript">
+// Not the real way to compute this difference, but good enough
 var _MS_IN_YR = 31536000000;
 var years = ["first", "second", "third", "fourth", "fifth", "elderly"];
-var d = new Date(2018, 8, 1);
+var d0 = new Date(2018, 8, 1);
 var d1 = new Date();
-var index = Math.floor((d1 - d)/_MS_IN_YR);
+var index = Math.floor((d1 - d0)/_MS_IN_YR);
 document.write(years[index]);
 </script>
 year Ph.D. student in the
@@ -81,14 +82,6 @@ on geometry processing and physically-based animation.
 <h3>Undergraduate</h3>
 <ul>
 
-<li>
-<p>
-<a href="./pdfs/link_num_writeup.pdf">
-Quantifying Geometric Entanglement: the Linking Number of Two Open Curves
-</a><br>
-Klint Qinami, Eitan Grinspun (May 15, 2017)
-<p></li>
-
 <li><p>
 <a href="./pdfs/qclang_report.pdf">
 QClang: High-Level Quantum Computing Language	
@@ -97,6 +90,15 @@ Klint Qinami, Connor Abbott (Apr. 28, 2018)<br>
 (<a href="./pdfs/qclang_src.zip">Src</a> | 
 <a href="https://github.com/KlintQinami/QClang">Github</a>)
 </p></li>
+
+
+<li><p>
+<a href="./pdfs/link_num_writeup.pdf">
+Quantifying Geometric Entanglement: the Linking Number of Two Open Curves
+</a><br>
+Klint Qinami, Eitan Grinspun (May 15, 2017)
+<p></li>
+
 
 <li><p>
 <a href="./pdfs/blis_report.pdf">
@@ -107,17 +109,19 @@ Connor Abbott, Wendy Pan, Klint Qinami, Jason Vaccario (May 10, 2017)<br>
 <a href="https://github.com/KlintQinami/Blis">Github</a>)
 </p></li>
 
-<li><p>
-<a href="./pdfs/supercond_manual.pdf">Superconductivity Software</a> (Aug. 31, 2018)<br>
-(<a href="./pdfs/supercond_src.zip">Src</a> |
-<a href="https://github.com/KlintQinami/Superconductivity-Experiment">Github</a>)
-</p></li>
 
 <li><p>
-<a href="./pdfs/qhe_manual.pdf">Quantum Hall Effect Software</a> (Apr. 22, 2016)<br>
-(<a href="./pdfs/qhe_src.zip">Src</a> |
+Physics:
+<a href="./pdfs/supercond_manual.pdf">Superconductivity Software</a>
+(<a href="./pdfs/supercond_src.zip">Src</a>
+|
+<a href="https://github.com/KlintQinami/Superconductivity-Experiment">Github</a>),
+<a href="./pdfs/qhe_manual.pdf">Quantum Hall Effect Software</a>
+(<a href="./pdfs/qhe_src.zip">Src</a> 
+|
 <a href="https://github.com/KlintQinami/Quantum-Hall-Effect-Software">Github</a>)
 </p></li>
+
 
 <li>
 Maths:
