@@ -6,241 +6,134 @@
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-
 gtag('config', 'UA-125964366-1');
 </script>
-
 <meta name="Author" content="Klint Qinami">
 <meta name="description" content="Klint Qinami is a Ph.D. student in
 Computer Science at Princeton University.">
-
 <meta name="keywords" content="Klint, Qinami, projects, cv, resume,
 publications, student, PhD, Princeton, computer, science, vision,
 robotics, graphics, computer vision, researcher" lang="en-us">
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Klint Qinami | Ph.D. student, Princeton</title>
 <link href="https://fonts.googleapis.com/css?family=Quicksand" 
 rel="stylesheet">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" type="text/css" href="blog.css">
-<link rel="stylesheet" type="text/css" href="./fonts.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-$("a").on('click', function(event) {
-if (this.hash !== "") {
-event.preventDefault();
-var hash = this.hash;
-$('html, body').animate({
-scrollTop: $(hash).offset().top
-}, 500, function(){
-window.location.hash = hash;
-});
-}
-});
+		$("a").on('click', function(event) {
+				if (this.hash !== "") {
+						event.preventDefault();
+						var hash = this.hash;
+						$('html, body').animate({
+						scrollTop: $(hash).offset().top
+						}, 500, function(){window.location.hash = hash;});
+				}
+		});
 });
 </script>
-
-</style>
 </head>	
-</body>
-<div class="w3-content w3-margin-top" style="max-width:1000px;">
-<div class="w3-container w3-card-4 w3-white w3-margin-bottom">
-<h2>Klint <font style="font-variant: small-caps">Qinami</font></h2>
-<h4>
-Ph.D. student, Computer Science, Princeton University
-</h4>
-<hr style="border-spacing: 2px; margin: 0; border-collapse: collapse;">
-<table style="width: 100%; text-align: left">
-<tr>
-<th style="width: 25%"><a href="#about">about</a></th>
-<th style="width: 25%"><a href="#projects">projects</a></th>
-<th style="width: 25%"><a href="./pdfs/cv.pdf">curriculum vitae</a></th>
-<th style="width: 25%"><a href="#contact">contact</a></th>
-</tr>
-</table>
-<hr style="border-spacing: 1px; margin: 1px; 
-border-collapse: collapse;">
-<table id="about" style="table-layout: fixed; margin: 10px">
-<tr>
-<td style="text-align: center">
-<img src="./images/idphoto.jpg" style="max-width: 300px;">
-</td>
-<td style="text-align: justify">
-<b> About: </b>
-I am a first year Ph.D. student in the Department of 
-Computer Science at Princeton University. Broadly speaking,
-I am interested in training computers to better
-understand images and videos.
-<br> <br>
-Previously, I received a B.S. from the School of
-Engineering and Applied Science at Columbia University. At
-Columbia, I was fortunate enough to work with Professor
-Eitan Grinspun on geometry processing and physically-based
-animation.
-</td>
-</tr>
-</table>
-<hr style="border-spacing: 1px; margin: 1px; border-collapse: collapse;">
-<h3 id="projects"> Projects </h3>
-<h4> Research </h4>
-<table class="sturdy" style="table-layout:fixed; width:100%">
-<tr>
-<td style="text-align:center; max-width:25%;">
-<img src="./images/link_img.png">
-</td>
-<td>
-Klint Qinami, Eitan Grinspun
-<h4>
-Quantifying Geometric Entanglement: the Linking Number 
-of Two Open Curves
-</h4>
-May 15, 2017
-<br> <br>
-<b>
-[<a href="./pdfs/link_num_writeup.pdf">Report</a>]
-</b>
-</td>
-</tr>
+<body bgcolor="#FFFFFF" text="#000000" link="#E87511" vlink="#E87511">
+
+<br>
+<table border=0 cellpadding=5>
+<tr><td valign=top>
+<img src="./images/IMG_3119.jpg" width=150>
+</td><td valign=top>
+<font size="+2">Klint Qinami</font><br>
+<font size="+1">Ph.D. student</font><br>
+Department of Computer Science<br>
+Princeton University<br>
+35 Olden Street<br>
+Princeton, NJ 08540<br>
+<font id="abcde">first initial plus last name at institution dot edu</font><br><br>
+</td></tr>
 </table>
 
-<h4> Programming Languages </h4>
+<h2>About</h2>
+<p>
+I am a 
+<script type="text/javascript">
+var years = ["first", "second", "third", "fourth", "fifth", "elderly"];
+var start_yr = 2018;
+var index = new Date().getFullYear() - start_yr;
+var name = years[index];
+document.write(name);
+</script>
+year Ph.D. student in the
+<a href="https://www.cs.princeton.edu">Department of Computer Science</a>
+at
+<a href="https://www.princeton.edu">Princeton University</a>.
+I am interested in training computers
+to better understand images and videos.
+Previously, I received my B.S. from the 
+<a href="https://engineering.columbia.edu/">School of Engineering and Applied Science</a>
+at
+<a href="https://www.columbia.edu/">Columbia University</a>
+(Class of 2018). At Columbia, I was fortunate enough to work with 
+<a href="http://www.cs.columbia.edu/~eitan/">Professor Eitan Grinspun</a>
+on geometry processing and physically-based animation.
+</p>
 
-<table class="sturdy" style="table-layout:fixed; width:100%">
-<tr>
-<td style="text-align: center">
-<img src="./images/qclang_img.png">
-</td>
-<td>
-Klint Qinami, Connor Abbott
-<h4>
-QClang: High-Level Quantum Computing Language	
-</h4>
-Apr. 28, 2018
-<br> <br>
-<b>
-[<a href="./pdfs/qclang_report.pdf">Report</a>]
-[<a href="./pdfs/qclang_presentation.pdf">Presentation</a>]
-[<a href="./pdfs/qclang_src.zip">Src</a>] 
-[<a href="https://github.com/KlintQinami/QClang">Github</a>]
-</b>
-</td>
-</tr>
-</table>
-
-<table class="sturdy" style="table-layout:fixed; width:100%">
-<tr>
-<td style="text-align: center">
-<img src="./images/blis.png">
-</td>
-<td>
-<div>
-Connor Abbott, Wendy Pan, Klint Qinami, Jason Vaccario		
-<h4>
-Blis: Better Language for Image Stuff	
-</h4>
-Apr. 28, 2018
-<br> <br>
-<b>
-
-[<a href="./pdfs/blis_report.pdf">Report</a>]
-[<a href="./pdfs/blis_presentation.pdf">Presentation</a>]
-[<a href="./pdfs/blis_src.tar.gz">Src</a>]
-[<a href="https://github.com/KlintQinami/Blis">Github</a>]
-</b>
-</div>
-</td>
-</tr>
-</table>
-
-<h4> Physics Lab Software </h4>
-
-<table class="sturdy" style="table-layout:fixed; width:100%">
-<tr>
-<td style="text-align: center">
-<img src="./images/supercond.png" 
-style="max-width: 200px; max-height: 200px ">
-</td>
-<td>
-Klint Qinami
-<h4>
-Superconductivity Software
-</h4>
-Aug. 31, 2018
-<br> <br>
-<b>
-[<a href="./pdfs/supercond_manual.pdf">Manual</a>]
-[<a href="./pdfs/supercond_src.zip">Src</a>]
-[<a href="https://github.com/KlintQinami/Superconductivity-Experiment">Github</a>]
-</b>
-</td>
-</tr>
-</table>
-
-
-<table class="sturdy" style="table-layout:fixed; width:100%">
-<tr>
-<td style="text-align: center">
-<img src="./images/qhe_img.png" 
-style="max-width: 200px; max-height: 200px ">
-</td>
-<td>
-Klint Qinami
-<h4>
-Quantum Hall Effect Software
-</h4>
-Apr. 22, 2016
-<br> <br>
-<b>
-[<a href="./pdfs/qhe_manual.pdf">Manual</a>]
-[<a href="./pdfs/qhe_src.zip">Src</a>]
-[<a href="https://github.com/KlintQinami/Quantum-Hall-Effect-Software">Github</a>]
-</b>
-</td>
-</tr>
-</table>
-
-
-<h4> Mathematics Notes </h4>
-
+<h2>Projects</h2>
+<h3>Undergraduate</h3>
 <ul>
-<b>
-<li><a href="./pdfs/algebraic_topology_notes.pdf">Algebraic Topology
-</a></li>
-<li><a href="./pdfs/topology_notes.pdf">Point-Set Topology</a></li>
-<li><a href="./pdfs/algebra_notes.pdf">Modern Algebra</a></li>
-</b>
+
+<li>
+<p>
+<a href="./pdfs/link_num_writeup.pdf">
+Quantifying Geometric Entanglement: the Linking Number of Two Open Curves
+</a><br>
+Klint Qinami, Eitan Grinspun (May 15, 2017)
+<p></li>
+
+<li><p>
+<a href="./pdfs/qclang_report.pdf">
+QClang: High-Level Quantum Computing Language	
+</a><br>
+Klint Qinami, Connor Abbott (Apr. 28, 2018)<br>
+(<a href="./pdfs/qclang_src.zip">Src</a> | 
+<a href="https://github.com/KlintQinami/QClang">Github</a>)
+</p></li>
+
+<li><p>
+<a href="./pdfs/blis_report.pdf">
+Blis: Better Language for Image Stuff	
+</a><br>
+Connor Abbott, Wendy Pan, Klint Qinami, Jason Vaccario (May 10, 2017)<br>
+(<a href="./pdfs/blis_src.tar.gz">Src</a> |
+<a href="https://github.com/KlintQinami/Blis">Github</a>)
+</p></li>
+
+<li><p>
+<a href="./pdfs/supercond_manual.pdf">Superconductivity Software</a> (Aug. 31, 2018)<br>
+(<a href="./pdfs/supercond_src.zip">Src</a> |
+<a href="https://github.com/KlintQinami/Superconductivity-Experiment">Github</a>)
+</p></li>
+
+<li><p>
+<a href="./pdfs/qhe_manual.pdf">Quantum Hall Effect Software</a> (Apr. 22, 2016)<br>
+(<a href="./pdfs/qhe_src.zip">Src</a> |
+<a href="https://github.com/KlintQinami/Quantum-Hall-Effect-Software">Github</a>)
+</p></li>
+
+<li>
+Maths:
+<a href="./pdfs/algebraic_topology_notes.pdf">Algebraic Topology</a>,
+<a href="./pdfs/topology_notes.pdf">Point-Set Topology</a>,
+<a href="./pdfs/algebra_notes.pdf">Modern Algebra</a>
+</li>
+
 </ul>
 
-<hr style="border-spacing: 1px; margin: 1px; border-collapse: collapse;">
-<h3 id="contact"> Contact </h3>
-<table style="width: 20%">
-<tr>
-<td style="width:25%"><code>Email:</code></td>
-<td><code id="abcde">initial plus last name at institution email</code></td>
-</tr>
-<tr>
-<td><code>Address:</code></td>
-<td><code>35 Olden Street, Princeton, N.J. 08540</code></td>
-</tr>
-<tr>
-<td><code>Links:</code></td>
-<td><a href="https://github.com/KlintQinami"><img src="./images/github.png" 
-alt="follow on twitter" style="max-width: 25px;"></a>
-<a href="https://www.linkedin.com/in/klint-qinami-455559b8/">
-<img src="./images/linkedin.png" 
-alt="connect on linked in" style="max-width: 25px;"></a>
-<a href="https://math.stackexchange.com/users/318882/klint-qinami?tab=profile">
-<img src="./images/se.png" 
-alt="follow on stackexchange"  style="max-width: 25px;"></a>
-</td>
-</tr>
-</table>
-<hr>
-</div>
-</div>
+<h2 id="miscellaneous-links">Miscellaneous links</h2>
+<ul>
+<li><a href="./pdfs/cv.pdf">C.V.</a></li>
+<li><a href="https://github.com/KlintQinami">GitHub</a></li>
+<li><a href="https://math.stackexchange.com/users/318882/klint-qinami?tab=profile">Stack Exchange</a></li>
+</ul>
+
 <script>
 var username1 = "kqina";
 var username2 = "mi@"
@@ -250,7 +143,6 @@ var suffix = ".edu"
 var linktext = username1 + username2 + hostname1 + hostname2 + suffix;
 document.getElementById("abcde").innerHTML = linktext;
 </script>
+
 </body>
-
-
 </html>
